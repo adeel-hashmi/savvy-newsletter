@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SavvyLancer!</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Add Font Awesome CSS (you may need to adjust the version) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #fdf3d6;
+            /* Complementary color to light caramel */
+            font-family: 'Comfortaa', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #FFECB3;
+            /* Light caramel */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            /* Ensure the logo doesn't overflow the container */
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-red {
+            color: #FF5252;
+        }
+
+        .highlight-yellow {
+            color: #FFD740;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 1rem;
+        }
+
+        ul li::before {
+            /* padding: 0px 10px; */
+            content: '🌟';
+            /* Use an emoji for bullet points */
+            margin-right: 0.5rem;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #FFD740;
+            border-radius: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="mx-auto" height="auto" width="100px" src="https://savvylancer.com/full_logo.png"
+            alt="SavvyLancer Logo">
+        <p class="text-2xl font-bold mb-4 text-red-700">Welcome to SavvyLancer - <span class="highlight-yellow">Elevate
+                With The Elites!</span></p>
+        <p class="text-gray-700 mb-4">👋 Hi there!</p>
+        <p class="text-gray-700 mb-4">Thank you for joining SavvyLancer, your gateway to endless opportunities and
+            exceptional talent! 🚀</p>
+        <div class="md:mx-10 bg-yellow-100 rounded-lg p-10 text-left">
+            <p class="text-gray-700 mb-4">Discover why SavvyLancer is the go-to platform for both buyers and sellers:
+            </p>
+            <ul class="text-gray-700">
+                <li>Connect globally with skilled freelancers ready to bring your projects to life. 🌎</li>
+                <li>Find the perfect freelancer tailored to your needs with our advanced algorithms. 🔍</li>
+                <li>Freelancers, showcase your skills and stand out with powerful profile customization tools. 🛠️</li>
+                <li>Experience a benchmark for excellent service delivery and equitable revenue-sharing. 💼</li>
+                <li>Elevate your freelancing career by joining the elite community at SavvyLancer. 🌟</li>
+            </ul>
+        </div>
+        <p class="text-gray-700 mt-4">Stay connected and be part of the future of freelancing:</p>
+        <div class="flex items-center justify-center space-x-4 text-gray-700">
+            <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/savvylancer" target="_blank" rel="noopener noreferrer"
+                class=" hover:underline highlight-red">
+                Follow
+            </a>
+            <span class="text-gray-500">|</span>
+            <i class="fas fa-globe "></i>
+            <a href="https://www.savvylancer.com" target="_blank" rel="noopener noreferrer"
+                class=" hover:underline highlight-red">
+                SavvyLancer.com
+            </a>
+        </div>
+        <p class="text-gray-700 mt-4">Get ready to revolutionize your freelancing journey. Stay tuned for our upcoming
+            newsletters! 📬</p>
+        <div class="footer">
+            <p class="text-gray-700">For inquiries, contact us at <strong>contact@savvylancer.com</strong>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
